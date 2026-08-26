@@ -540,7 +540,10 @@ img { max-width: 100%; display: block; }
   .intro-quote { font-size: 26px; }
   .gallery-mosaic { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; }
   .gallery-mosaic .g-wide, .gallery-mosaic .g-big { grid-column: span 2; }
-  .feature-row, .feature-row.reverse { flex-direction: column; gap: 28px; padding: 40px 24px; }
+  .feature-row, .feature-row.reverse { flex-direction: column; align-items: stretch; gap: 28px; padding: 40px 24px; }
+  .feature-media { flex: none; width: 100%; }
+  .feature-text { min-width: 0; }
+  .feature-text p { max-width: none; }
   .stats-strip { gap: 44px; padding-top: 60px; padding-bottom: 60px; }
   .intro-section { padding: 64px 24px 56px; }
   .gallery-section { padding-top: 56px; padding-bottom: 56px; }
