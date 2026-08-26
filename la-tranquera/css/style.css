@@ -532,7 +532,7 @@ img { max-width: 100%; display: block; }
   .hero { flex-direction: column; }
   .hero-panel-image { min-height: 320px; order: -1; }
   .hero-panel-text { padding: 56px 32px; }
-  .location-card { position: static; margin: -80px 24px 0; max-width: none; }
+  .location-card { position: static; margin: 24px; max-width: none; box-shadow: none; border: 1px solid var(--line); }
 }
 
 @media (max-width: 720px) {
